@@ -55,3 +55,9 @@
         float: left;
     }
 }
+
+/* styling the restaurant-poster*/
+.restaurant-poster{
+    height: 100%;
+    width: auto;
+}
