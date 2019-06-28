@@ -1,0 +1,60 @@
+// 
+
+<div className="search-icon-container"
+                        id="middle" >
+
+<TextField InputProps={
+//     {
+//         startAdornment: (<InputAdornment position="start" >
+//             <SearchIcon id="SearchIcon-id"
+//                 fill="white"
+//                 className="SearchIcon-logo" />
+//         </InputAdornment>
+//         ),
+//     }
+// }
+// id="search-text-input"
+// placeholder="Search by Restaurant Name"
+// margin="normal"
+// fullWidth 
+// onChange = {this.restaurantNameSearchHandler}
+
+// />
+
+ </div>
+
+
+</div>
+                            <div className="search-icon-container">
+                            
+                            <Input InputProps={
+                                     {
+                                        startAdornment: (
+                                            <InputAdornment position="start" >
+                                            <SearchIcon 
+                                            id="SearchIcon-id"
+                                                            
+                                            className="SearchIcon-logo" />
+                                             </InputAdornment>
+                                         ),
+                                    }
+                                 }
+                              
+                                
+                              placeholder="Search by Restaurant Name"
+                              fullWidth
+                            />
+                        </div>
+
+
+
+
+<div className="search-icon-container">
+                        <div className="search-icon"><SearchIcon /></div>
+                        <div className="search-text-input"><Input
+                            //onChange={this.props.searchImageByDescription.bind(this)}
+                            //className={classes.searchInput}
+                            //onClick={this.dispUnderLineHandler}
+                            placeholder="Search by Restaurant Name" id="search-input" fullWidth /></div>
+
+                    </div>

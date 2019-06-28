@@ -1,7 +1,7 @@
 /*  grey Header   */
 
 .app-header-container {
-    background-color: grey;
+    background-color:#A9A9A9;
     height: 36px;
     padding: 8px 32px 8px 16px;
     display: flex;
@@ -10,42 +10,109 @@
 
 .fastfood-icon-container {
     float: left;
+    color:white;
 }
 
 .search-icon-container {
-    position: 'relative';
-    display: 'inline-block';
-    align-self: center;
+    display: flex;
+    border-radius: 4px;
+    width:300px;
+}
+#search-input {
+    color:white;
+}
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline {
+    width: 250px;
+    color: black;
+    
 }
 
 .search-icon {
-    padding: 0 5px;
     align-self: center;
+    color:white;
 }
 
-#search-text-input {
-    padding: 4px 4pm 4px 0px;
-    color: white;
+.search-text-input {
+    padding: 0px 4px 4px 0px;
     font-size: 15px;
+    width:300px;
+    
 }
-
 
 /*  login button to float right  */
 
 .login-button-container {
     float: right;
 }
-
+.grid-item {
+    margin: 15px;
+  }
+  
+  .cardStyle {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  
+  .image-properties {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    width: 'auto';
+    height:'auto';
+  
+  }
+  .cardHeader {
+    display:flex;
+    float:flex-start;
+  }
+  .cardContent {
+    display:flex;
+    justify-content: center;
+  }  
 
 /*  account circle icon having a padding on right   */
 
 .accountCircle-logo {
     padding-right: 6%;
 }
+/*css for login/signup tabs */
 
+.tabs {
+    margin: 20px;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+.red {
+    color:red;
+}
+#star-icon {
+    color:white;
+}
+#left-button{
+    float:left;
+    color:white;
+}
+#right-avg-price{
+    float:right;
+}
+#last-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float:bottom;
+}
 @media (max-width:600px) {
     header {
         flex-direction: column;
+        height: 100%;
     }
     .app-header-container {
         background-color: grey;
